@@ -1,0 +1,188 @@
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* CSS NAV BAR */
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav div {
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+nav div div {
+    width: 40%;
+    height: 100px;
+}
+
+
+
+nav img {
+    height: 130px;
+    width: 130px;
+}
+
+/* Fin DE CSS NAVBAR */
+
+/* CSS CONTACT */
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contactblock {
+    display: flex;
+    flex-wrap: wrap;
+    border-style: solid;
+    border-color: #f1870571;
+    justify-content: space-around;
+    margin: 0 5%;
+}
+
+.contactblock h3 {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.coordonnees {
+    width: 45%;
+    height: 100%;
+    text-align: center;
+    margin: 5% 2.5%;
+}
+
+.form {
+    width: 45%;
+    height: 100%;
+    border-style: solid;
+    border-color: #f1870571;
+    box-sizing: border-box;
+    margin: 5% 2.5%;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+form {
+    height: 100%;
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+
+}
+
+form label {
+    display: block;
+    width: 150px;
+    float: left;
+}
+
+textarea {
+    resize: none;
+    background-color: #f1870571;
+border: none;
+}
+
+input {
+    width: 309px;
+    background-color: #f1870571;
+    border: none;
+}
+
+#sendbutton {
+    width: 100px;
+    margin: 0px 150px ;
+    border-radius: 7px;
+    border: none;
+}
+
+.horraires {
+    width: 100%;
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+}
+
+
+.mention{
+    display:flex;
+   justify-content:center; 
+}
+
+
+.legal, .products, .contact{
+   margin: 0 10%; 
+   font-size:x-large;
+   color:black;
+   text-decoration:none;
+}
+
+
+.us{
+    display: flex;
+}
+.para1{
+    border: 2px solid orange;
+    border-radius: 5px;
+    padding: 30px;
+
+}
+.photo{
+    width: 200%;
+    padding: 25px;
+}
+.productsclients{
+    text-align: center;
+}
+.shoes img {
+    width :250px;
+    height: auto;
+    margin-left: 25px;
+    border-radius:5px ;
+}
+.shoes{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+}
+.client img {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+.client{
+    text-align: center;
+    display: flex;
+    justify-content:center;
+    column-gap: 10px;
+    padding: 0 20px;
+}
+.discovery{
+    font-size: 30px;
+}
+.para1{
+    text-align: center;
+}
+.ask{
+    width: 75%;
+    border-radius: 2%;
+}
+.avis{
+    font-size: 15px;
+    padding: 0 20px;
+}
+.picture{
+    width:calc(100%/4);
+
+}
+

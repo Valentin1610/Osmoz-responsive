@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go West</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header> <!--nav avec logo-->
+        <nav>
+            <div>
+                <div class="leftbutton">
+                    <a title="presentation" href="presentation">Présentation</a>
+                    <a title="products" href="products">Produits</a>
+                </div>
+                <img src="/assets/img/GOWESTAMIENS.png" alt="logo go west">
+                <div class="rightbutton">
+                    <a title="pictures" href="pictures">Photos Clients</a>
+                    <a title="contact" href="#contact">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header> <!--fin du nav-->
+    <section>
+        <h2>Presentation</h2> <!--qui sommes-nous-->
+        <article class="us">
+            <div class="photo">
+                <img class="ask" src="assets/img/accueil.jpg" alt="accueil" >
+            </div>
+            <div class="discovery">
+                <h2>Qui sommes-nous ?</h2>
+                <p class="para1">
+                    Crée par la famille Cygiel en 1984, Go West, au départ revendeur officiel Santiag, est aujourd’hui le point de rendez-vous de tous les passionnés de Doc Martens.
+                    Aujourd’hui tenu par Cédric, le fils des fondateurs,
+                    Go West vous propose un large choix de références.
+                <p>
+            </div>
+        </article>
+    </section> <!--fin de qui sommes-nous-->
+    <h1 id="products" class="productsclients" >Nos produits</h1>
+    <div> <!--nos produits-->
+        <div class="shoes">
+            <div>
+                <img src="assets/img/1461.png" alt="1461">
+                <p>1461</p>
+            </div>
+            <div>
+                <img src="assets/img/vonda.png" alt="vonda">
+                <p>Vonda</p>
+            </div>
+            <div>
+                <img src="assets/img/chelsea.png" alt="chelsea">
+                <p>Chelsea</p>
+            </div>
+            <div>
+                <img src="assets/img/jadon.png" alt="jadon">
+                <p>Jadon</p>
+            </div>
+            <div>
+                <img src="assets/img/blaire.png" alt="blaire">
+                <p>Blaire</p>
+            </div>
+        </div>
+    </div> <!--fin de nos produits-->
+  <!--photos clients-->
+
+    <h1 class="productsclients">Photos clients</h1>
+    <div><!--photos clients--> 
+        <div class="client">
+            <div class="picture">
+                <img src="assets/img/Screenshot_2023-06-01-14-54-14-878_com.facebook.katana-edit.jpg" alt="photoavis">
+               <div class="avis">
+                    <p>
+                    Accueil chaleureux, les proprios parlent en conséquence de cause on peut leur faire confiance à 100%. 
+                    </p>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="assets/img/Screenshot_2023-06-01-14-55-04-574_com.facebook.katana-edit.jpg" alt="photoclient">
+                <div class="avis">
+                    <p>
+                        Magasin chaleureux, vendeur sympathique et amusant.
+                    </p>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="assets/img/FB_IMG_1685624268886.jpg" alt="photoclient">
+                <div class="avis">
+                    <p>
+                        Achat fait, envois réalisé très rapidement,aucun regret, merci,
+                        je suis ravie de mon achat.
+                    </p>
+                </div>
+            </div>
+            <div class="picture">
+                <img src="assets/img/FB_IMG_1685624027446.jpg" alt="photoclient">
+                <div class="avis">
+                    <p>                        
+                        Un petit coucou de Chamonix, Merci pour votre accueil, et vos conseils.  
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div> <!--fin de photos cliens-->
+    <h2 class="contact">Contact</h2><!--contact-->
+    <div class="contactblock">
+        <div class="coordonnees">
+            <h3>Coordonnées de la Boutique</h3>
+            <p>1/3 rue du Marché de Lanselles, Amiens, France</p>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2570.165404085924!2d2.2948497753366115!3d49.89569792715343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e7843f30f50e1f%3A0x4b8aed26a1fec9af!2sGowest!5e0!3m2!1sfr!2sfr!4v1685690401604!5m2!1sfr!2sfr"
+                width="415" height="325" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="form">
+            <h3>Formulaire de Contact</h3>
+            <form> <!--formulaire-->
+                <label id="maillabel" for="mail">Adresse Email :</label>
+                <input type="email" id="mail" placeholder="Adresse Email"><br>
+                <label for="message">Message :</label>
+                <textarea name="message" id="message" cols="40" rows="10" placeholder="Message..."></textarea><br>
+                <input type="submit" id="sendbutton"> <!--bouton-->
+            </form>
+        
+        </div> <!--fin de formulaire-->
+        <p class="horraires">Horraires : Du Lundi au Samedi 10h30 - 12h30 14h00 - 19h00</p>
+
+
+    </div> <!--fin de contact-->
+    
+
+    <footer> <!--mentions-->
+        <div class="mention">
+<div><a  id="legal" class="legal" title="Mentions légales" >Mentions légales</a></div>
+<div><a  id="products" class="products" title="Produits" href="#products">Produits</a></div>
+<div><a  id="contact" class="contact" href="#contact" title="contact">Contact</a></div>
+
+        </div>
+    </footer> <!--fin de mentions-->
+</body>
+
+</html>
