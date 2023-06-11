@@ -1,128 +1,18 @@
 body{
-    font-family: 'Source Sans Pro', sans-serif;
-    margin: 0px;
-    padding: 0;
-}
-html{
-    scroll-behavior: smooth;
-}
-/* --------------------------------------------DEBUT NAVBAR */
-.menu {
-    display: flex;
-    align-items: center;  
-    justify-content: space-evenly;           
-    padding:0;
-    background-color:#2F3E46 ;                 
-}
-/* ajouter le justify content space-evenly car logo collé à la marge gauche */
-.menu li {
-    list-style-type: none ;       
-}
-nav {
     width: 100%;
-    margin-top: -16px;
-    margin-bottom: -16px;
-    }        
- /* ajout d'une margin négative pour que la navbar touche le haut de l'écran  */
-header img{
-    width: 250px;
-    height: 170px;
-    background-color:#CAD2C5;
 }
-/* retirer le border radius et redimensionner le logo pour que le space evenly et les bouton soit bien placer */
-.imglogo {
-    height: 170px;
-}
-/* ajout de class imglogo dans le html pour pouvoir ciblé seulement la taille du logo */
-.menu a:hover {
-    background-color: #84A98C;
-    color: #2F3E46;
-    border-color: #ffe843;
-  }
-  .menu a {
-    display:block;               
-    min-width: 120px;             
-    border-radius: 20px;
-    margin: 0.5rem;              
-    padding: 0.4rem 0;            
-    text-align: center;           
-    transition: all 1s ;  
-    color: #6F8D7A;                  
-    text-decoration: none;
-    font-size: 30px;                 
-}
-header span{
-    font-size : 40px; 
-}
-.devanture{
-    background-color:#354f52 ; 
-    color: #2F3E46 ;
-    text-align: center; 
-    padding-top: 50px;   
-}
-.devanture img{
-    border: solid #84A98C 1px;
-    width: 60%;
-    border-radius: 20px;
-}
-/* ------------------------------------------FIN NAVBAR */
-
-/* ------------------------------------------DEBUT SECTION PRESENTATION */
-
-
-.Presentation h1{
-    color:#cad2d5 ;
-    font-size: 50px;
-    text-align: center;
-    margin: 0;
-    padding-top: 50px;
-}
-.Presentation{
-    background-color:#354f52 ; 
-    color: #2F3E46  ;
-}
-.Presentation div{
-    color: #2F3E46;
-}
-.txt-presentation{
-    background-color: #CAD2C5;
-    border-radius: 20px;
-    margin-left: 5%;
-    font-size:21px;
-}
-.intro{
-    margin: 5%;
-}
-.marg-text{
-    margin: 3%;
-}
-.flex-pres{
-    margin: 5%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height:80vh;
-}
-.flex-pres img{
-    height:54%;
-    width: 100%;
-    border-radius: 20px;
-    border: solid 1px #84a98c ;
-}
-.block-pres{
-    width:40%;
-    padding-bottom: 3%;
-    height: fit-content;
-    text-align: center;
-}
-.img-pres{
-    display: flex;
-    justify-content: center;  
-}
-/* ------------------------------------------FIN SECTION PRESENTATION */
-
 /* ------------------------------------------DEBUT SECTION REALISATION */
+@media screen and (max-width: 578px){
+    .div1, .div2, .div3, .div4, .div5, .div6, .h2real, .real{
+        display:none;
+    }
+}
 
+@media screen and (min-width: 578px){
+    .divresp1, .divresp2, .divresp3, .divresp4, .divresp5, .divresp6, .titremobile{
+        display:none;
+    }
+}
 .real{
     background-color: #52796F;
     margin-top: -80px;
@@ -161,7 +51,18 @@ header span{
 
 /* ------------------------------------------FIN SECTION REALISATION */
 
+
 /* ------------------------------------------DEBUT SECTION INFO */
+@media screen and (max-width: 578px){
+    .containercolor {
+        display:none;
+    }
+}
+@media screen and (min-width: 578px){
+    .mobile{
+        display:none;
+    }
+}
 .containercolor {
     background-color: #84A98C;
     margin-bottom: -42px;
@@ -220,126 +121,10 @@ header span{
     font-size: 22px;
     color: #354F52;
 }
+
 .blank {
     width: 10%;
     height: 5%;
     color: #84A98C;
 }
 /* ------------------------------------------FIN SECTION INFO */
-
-
-/* CONTACT */
-.contact{
-    background-color: #cad2c5 ;
-    padding-bottom: 30px;
-    }
-.footer{
-    background-color: #2F3E46;
-    display: flex;
-}
-#formulaire{
-    text-align: center;
-}
-.h2contact{
-    font-size: 50px;
-    text-align: center;
-    color: #2F3E46 ;
-    padding-top: 20px;
-}
-input {
-    background-color: #52796F;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    width: 30%;
-    height: 60px;
-    margin: 15px;
-    color: white;
-    font-size: 20px;
-}
-input:hover{
-    background-color: #2F3E46;
-}
-input::placeholder{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-textarea::placeholder{
-    color: white;
-    text-align: center;
-    font-size: 20px;
-}
-button{
-    background-color: #52796F;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    width: 30%;
-    height: 60px;
-    margin: 15px;
-    color: white;   
-}
-button:hover{
-    background-color: #2F3E46;
-}
-textarea{
-    background-color: #52796F;
-    color: white;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    text-align:center;
-    margin: 10px;
-    resize: none;
-}
-/* FOOTER */
-#logo{
-    display: flex;
-    justify-content: center;
-    background-color: #cad2c5;
-    border-top: solid 1px #000000;
-    border-right: solid 1px #000000;
-}
-#logo-osmoz{
- width: 60%;
- margin-left: 60px;
-}
-.footercenter{
-    text-align: center;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-    color: #cad2c5;
-    font-size: 12px;
-    width: 100%; 
-}
-.footercenter a{
-    text-decoration: none;
-    color: #cad2c5;
-    font-size: 28px;
-}
-.footercenterleft{
-    width: 40%;
-}
-.footercenterleft ul{
-    list-style-type: none;
-    padding: 0;
-}
-.footercenterright{
-    width: 40%;
-    font-size: 12px;
-}
-.titre{
-    font-size: 28px;
-    margin: 0;
-}
-.copyright{
-    margin-top: 10px;
-}
-.logo-fb{
-    padding: 0 10px 0 10px ;
-    width: 20%;
-}
-.logo-fb img{
-    width: 120px;
-    margin-top: 25%;
-}
-
