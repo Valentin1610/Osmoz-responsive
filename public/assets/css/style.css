@@ -76,64 +76,7 @@ body{
     color: #2F3E46;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
     margin: 0;
+    padding: 0;
 }
-.titreinfos {
-    text-align: center;
-    color: #2F3E46;
-    font-size: 25px;
-}
-.containerinfo {
-    display: flex;
-    background: #CAD2C5;
-    border-radius: 20px;
-    width: 85%;
-    margin-left: 7%;
-}
-.containerinfo2 {
-    width: 50%;
-}
-.containerinfo3 {
-    
-    width: 50%;
-}
-.containerhoraires {
-   padding-left: 20%;
-   padding-right: 15%;
-}
-.day {
-    font-size: 20px;
-    color: #354F52;
-}
-.hours {
-    font-size: 20px;
-    color: #354F52;
-}
-.day-hours {
-    display: flex;
-    justify-content: space-between;
-    padding: 5px;
-}
-.rue {
-    text-align: center;
-    font-size: 25px;
-    color: #354F52;
-}
-.PMR {
-    text-align: center;
-    font-size: 22px;
-    color: #354F52;
-}
-
-.blank {
-    width: 10%;
-    height: 5%;
-    color: #84A98C;
-}
-.maps {
-    display:flex;
-    align-items: end;
-    width: 95%;
-    margin-bottom: 10px;
-}
-/* ------------------------------------------FIN SECTION INFO */
