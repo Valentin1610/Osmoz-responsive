@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -44,18 +43,99 @@
                 </p>
             </div>
         </div> <!--fin d'image et texte de présentation-->
-        <div> <!--presentation-->
-            <h2></h2>
-            <ul>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-            </ul>
+        <div class="presdesk"> <!--presentation-->
+            <div class="devanture">
+                <img src="./img/devanture.png" alt="devanture">
+            </div>
+            <div class="Presentation" id="Presentation">
+                <h1>Présentation</h1>
+                <div class="txt-presentation intro">
+                    <p class="marg-text"><br>Bienvenue dans notre restaurant , un véritable joyau culinaire situé au
+                        cœur de
+                        cette charmante ville historique. Nous sommes fiers de vous offrir une expérience gastronomique
+                        inoubliable, mêlant créativité, saveurs exquises et service impeccable.<br>
+                        <br>
+                        Notre équipe de chefs talentueux est passionnée par la cuisine et s'engage à créer des plats
+                        d'exception
+                        en utilisant des ingrédients frais et de saison. Chaque assiette est une œuvre d'art culinaire,
+                        soigneusement préparée pour éveiller vos sens et vous offrir une explosion de saveurs.<br>
+                        <br>
+                    </p>
+                </div>
+                <div class="flex-pres">
+                    <div class="img-pres">
+                        <img src="./img/intérieur.jpg" alt="intérieur">
+                    </div>
+                    <div class="txt-presentation block-pres">
+                        <p class="marg-text">Nous accordons une grande importance à la qualité de nos produits et à la
+                            satisfaction de nos clients. C'est pourquoi nous travaillons en étroite collaboration avec
+                            des
+                            producteurs locaux et privilégions les ingrédients frais et de saison. Nous sommes également
+                            attentifs aux régimes alimentaires spécifiques et proposons des options végétariennes et
+                            sans
+                            gluten.<br>
+                            <br>
+                            Que vous soyez un fin gourmet à la recherche de nouvelles découvertes culinaires ou
+                            simplement à la
+                            recherche d'un moment de détente autour d'une bonne table, notre restaurant gastronomique
+                            d'Amiens
+                            est l'endroit idéal.<br>
+                            <br>
+                            Nous sommes impatients de vous accueillir et de vous offrir une expérience gastronomique
+                            mémorable.
+                            Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire inoubliable.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <!--fin de presentation-->
+        <!-- debut présentation mediaquery -->
+        <div class="test1">
+            <div class=" pres text-center" class="container-fluide">
+                <div class="row justify-content-center">
+                    <img src="./img/devanture.png" alt="devanture" class="col-12">
+                    <onetext class="col-12">
+                        <h1>Présentation</h1>
+                        <p><br>Bienvenue dans notre restaurant , un véritable joyau culinaire situé au cœur de
+                            cette charmante ville historique. Nous sommes fiers de vous offrir une expérience
+                            gastronomique
+                            inoubliable, mêlant créativité, saveurs exquises et service impeccable.<br>
+                            <br>
+                            Notre équipe de chefs talentueux est passionnée par la cuisine et s'engage à créer des plats
+                            d'exception
+                            en utilisant des ingrédients frais et de saison. Chaque assiette est une œuvre d'art
+                            culinaire,
+                            soigneusement préparée pour éveiller vos sens et vous offrir une explosion de saveurs.<br>
+                            <br>
+                        </p>
+                    </onetext>
+                    <img src="./img/intérieur.jpg" alt="intérieur" class="col-12">
+                    <twotext class="col-12">
+                        <p>Nous accordons une grande importance à la qualité de nos produits et à la
+                            satisfaction de nos clients. C'est pourquoi nous travaillons en étroite collaboration avec
+                            des
+                            producteurs locaux et privilégions les ingrédients frais et de saison. Nous sommes également
+                            attentifs aux régimes alimentaires spécifiques et proposons des options végétariennes et
+                            sans
+                            gluten.<br>
+                            <br>
+                            Que vous soyez un fin gourmet à la recherche de nouvelles découvertes culinaires ou
+                            simplement à la
+                            recherche d'un moment de détente autour d'une bonne table, notre restaurant gastronomique
+                            d'Amiens
+                            est l'endroit idéal.<br>
+                            <br>
+                            Nous sommes impatients de vous accueillir et de vous offrir une expérience gastronomique
+                            mémorable.
+                            Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire inoubliable.
+                        </p>
+                    </twotext>
+                </div>
+            </div>
+        </div>
+
+        <!-- fin de présentation mediaquery -->
         <div> <!--Infos pratiques-->
             <div>
                 <h2></h2>
@@ -63,36 +143,7 @@
             <div>
                 <div>
                     <h3></h3>
-                    <ul>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                        <li>
-                            <h5></h5>
-                            <p></p>
-                        </li>
-                    </ul>
+
                 </div>
                 <div">
                     <h3></h3>
@@ -114,13 +165,12 @@
     <contact class="contact text-white text-center" class="container-fluid">
         <h2>Contact</h2>
         <form class="row justify-content-center">
-            <input class="col-11 col-sm-4 " type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
-            <input class="col-11 col-sm-4 " type="text" name="nom" id="nom" placeholder="Votre Nom">
-            <input class="col-11 col-sm-4 " type="email" name="email" id="email" placeholder="Email">
-            <input class="col-11 col-sm-4 " type="tel" name="telephone" id="telephone" placeholder="Téléphone">
-            <textarea class="col-11 col-sm-8" name="message" id="message" rows="8"
-                placeholder="Votre Message"></textarea>
-            <button class="col-11 col-sm-8" type="submit">ENVOYER</button>
+            <input class="col-11 col-sm-4" type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
+            <input class="col-11 col-sm-4" type="text" name="nom" id="nom" placeholder="Votre Nom">
+            <input class="col-11 col-sm-4" type="email" name="email" id="email" placeholder="Email">
+            <input class="col-11 col-sm-4" type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+            <textarea class="col-10" name="message" id="message" rows="10" placeholder="Votre Message"></textarea>
+            <button class="col-4" type="submit">ENVOYER</button>
         </form>
     </contact>
     <!--fin de contact-->
@@ -160,10 +210,10 @@
     <!-- fin du footer clasique -->
     <!-- médiaquery footer -->
     <footer class="footermobile container-fluid justify-content-center fs-5 text-white text-center">
-        <logo class="col">
+        <logo class="col-12">
             <a href="#haut"><img src="./img/logo-osmoz.png" alt="logo-osmoz" id="logo-osmoz"></a>
         </logo>
-        <footercenterleft class="col" >
+        <footercenterleft class="col-12">
             <a href="https://www.legalplace.fr/guides/mentions-legales/" class="titre">Mention Légales</a> <br>
             <p>Site développé et géré par :</p>
             <ul>
@@ -174,14 +224,14 @@
             </ul>
             <p class="copyright">Copyright © 2023</p>
         </footercenterleft>
-        <footercenterright class="col">
+        <footercenterright class="col-12">
             <p class="titre">Restaurant Osmoz</p>
             <p>8 Rue Lamarck</p>
             <p>80000 Amiens</p>
             <p>Ouvert du lundi au samedi</p>
             <p>Fermé le dimanche et le lundi soir</p>
         </footercenterright>
-        <logofb class="col">
+        <logofb class="col-12">
             <a href="https://www.facebook.com/osmozamiens/?locale=fr_FR" target="_blank"><img src="./img/logo-fb.png"
                     alt="facebook"></a>
         </logofb>

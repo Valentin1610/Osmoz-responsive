@@ -3,6 +3,56 @@ body{
     margin: 0;
     padding: 0;
 }
+/* presentation */
+.Presentation h1{
+    color:#cad2d5 ;
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+.Presentation{
+    background-color:#354f52 ; 
+    color: #2F3E46  ;
+}
+.Presentation div{
+    color: #2F3E46;
+}
+.txt-presentation{
+    background-color: #CAD2C5;
+    border-radius: 20px;
+    margin-left: 5%;
+    font-size:21px;
+}
+.intro{
+    margin: 5%;
+}
+.marg-text{
+    margin: 3%;
+}
+.flex-pres{
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height:80vh;
+}
+.flex-pres img{
+    height:54%;
+    width: 100%;
+    border-radius: 20px;
+    border: solid 1px #84a98c ;
+}
+.block-pres{
+    width:40%;
+    padding-bottom: 3%;
+    height: fit-content;
+    text-align: center;
+}
+.img-pres{
+    display: flex;
+    justify-content: center;  
+}
 /* contact */
 .contact input {
     background-color: #52796F;
@@ -109,6 +159,19 @@ footer{
 footercenterleft ul { 
     list-style-type: none;
 }
-
-
-
+/* mediaquery présentation */
+@media screen and (max-width: 992px){
+    .presdesk{
+        display:none;
+    }
+}
+@media screen and (min-width: 992px){
+    .pres{ 
+        display:none;
+    }
+}
+.test1{
+    background-color:#354f52;
+    color:#cad2d5 ;
+    font-size: 20px;
+}
