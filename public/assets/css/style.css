@@ -1,7 +1,7 @@
 body {}
 
 /* ------------------------------------------DEBUT SECTION REALISATION */
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 992px) {
 
     .div1,
     .div2,
@@ -15,7 +15,7 @@ body {}
     }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 992px) {
 
     .divresp1,
     .divresp2,
@@ -89,13 +89,13 @@ body {}
 
 
 /* ------------------------------------------DEBUT SECTION INFO */
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 992px) {
     .containercolor {
         display: none;
     }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 992px) {
     .mobile {
         display: none;
     }
@@ -119,13 +119,13 @@ body {}
 }
 
 /* ------------------------------------------DEBUT SECTION INFO */
-@media screen and (max-width: 578px) {
+@media screen and (max-width: 299px) {
     .containercolor {
         display: none;
     }
 }
 
-@media screen and (min-width: 578px) {
+@media screen and (min-width: 992px) {
     .mobile {
         display: none;
     }
