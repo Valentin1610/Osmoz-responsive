@@ -48,21 +48,99 @@
     </div> 
     <!--fin de l'image presentation-->
     <!--Texte présentation-->
-    <div>
+</div> <!--fin d'image et texte de présentation-->
+<div class="presdesk"> <!--presentation-->
+    <div class="devanture">
+        <img src="assets/img/devanture.png" alt="devanture">
+    </div>
+    <div class="Presentation" id="Presentation">
         <h1>Présentation</h1>
-        <div>
-            <p>
+        <div class="txt-presentation intro">
+            <p class="marg-text"><br>Bienvenue dans notre restaurant , un véritable joyau culinaire situé au
+                cœur de
+                cette charmante ville historique. Nous sommes fiers de vous offrir une expérience gastronomique
+                inoubliable, mêlant créativité, saveurs exquises et service impeccable.<br>
+                <br>
+                Notre équipe de chefs talentueux est passionnée par la cuisine et s'engage à créer des plats
+                d'exception
+                en utilisant des ingrédients frais et de saison. Chaque assiette est une œuvre d'art culinaire,
+                soigneusement préparée pour éveiller vos sens et vous offrir une explosion de saveurs.<br>
+                <br>
             </p>
-        </div> <!--fin de texte presentation-->
-        <div> <!--Image + Texte présentation-->
-            <div>
-                
+        </div>
+        <div class="flex-pres">
+            <div class="img-pres">
+                <img src="assets/img/interieur.jpg" alt="intérieur">
             </div>
-            <div>
-                <p>
+            <div class="txt-presentation block-pres">
+                <p class="marg-text">Nous accordons une grande importance à la qualité de nos produits et à la
+                    satisfaction de nos clients. C'est pourquoi nous travaillons en étroite collaboration avec
+                    des
+                    producteurs locaux et privilégions les ingrédients frais et de saison. Nous sommes également
+                    attentifs aux régimes alimentaires spécifiques et proposons des options végétariennes et
+                    sans
+                    gluten.<br>
+                    <br>
+                    Que vous soyez un fin gourmet à la recherche de nouvelles découvertes culinaires ou
+                    simplement à la
+                    recherche d'un moment de détente autour d'une bonne table, notre restaurant gastronomique
+                    d'Amiens
+                    est l'endroit idéal.<br>
+                    <br>
+                    Nous sommes impatients de vous accueillir et de vous offrir une expérience gastronomique
+                    mémorable.
+                    Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire inoubliable.
                 </p>
             </div>
-        </div> <!--fin d'image et texte de présentation-->
+        </div>
+    </div>
+</div>
+<!--fin de presentation-->
+       <!-- debut présentation mediaquery -->
+       <div class="test1">
+        <div class=" pres text-center" class="container-fluide">
+            <img src="assets/img/devanture.png" alt="devanture" class="col-12">
+                <onetext class="col-12">
+                    <h1>Présentation</h1>
+                    <p><br>Bienvenue dans notre restaurant , un véritable joyau culinaire situé au cœur de
+                        cette charmante ville historique. Nous sommes fiers de vous offrir une expérience
+                        gastronomique
+                        inoubliable, mêlant créativité, saveurs exquises et service impeccable.<br>
+                        <br>
+                        Notre équipe de chefs talentueux est passionnée par la cuisine et s'engage à créer des plats
+                        d'exception
+                        en utilisant des ingrédients frais et de saison. Chaque assiette est une œuvre d'art
+                        culinaire,
+                        soigneusement préparée pour éveiller vos sens et vous offrir une explosion de saveurs.<br>
+                        <br>
+                    </p>
+                </onetext>
+                <img src="assets/img/interieur.jpg" alt="intérieur" class="col-12">
+                <twotext class="col-12">
+                    <p>Nous accordons une grande importance à la qualité de nos produits et à la
+                        satisfaction de nos clients. C'est pourquoi nous travaillons en étroite collaboration avec
+                        des
+                        producteurs locaux et privilégions les ingrédients frais et de saison. Nous sommes également
+                        attentifs aux régimes alimentaires spécifiques et proposons des options végétariennes et
+                        sans
+                        gluten.<br>
+                        <br>
+                        Que vous soyez un fin gourmet à la recherche de nouvelles découvertes culinaires ou
+                        simplement à la
+                        recherche d'un moment de détente autour d'une bonne table, notre restaurant gastronomique
+                        d'Amiens
+                        est l'endroit idéal.<br>
+                        <br>
+                        Nous sommes impatients de vous accueillir et de vous offrir une expérience gastronomique
+                        mémorable.
+                        Réservez dès maintenant et laissez-nous vous emmener dans un voyage culinaire inoubliable.
+                    </p>
+                </twotext>
+            </img>
+        </div>
+    </div>
+
+    <!-- fin de présentation mediaquery --> <!--fin d'image et texte de présentation-->
         <!-- Réalisations ONLY DESKTOP -->
         <div class="real">
             <h2 class="h2real" id="realisations">Réalisations</h2>
@@ -193,36 +271,80 @@
         </section>
         <!-- fin infos pratiques ONLY MOBILE-->
 
-        <footer>
-            <div>
-                <div>
-                    <a></a>
+        <!--contact-->
+        <contact class="contact text-white text-center" class="container-fluid">
+            <h2>Contact</h2>
+            <form class="row justify-content-center">
+                <input class="col-11 col-sm-4" type="text" name="prenom" id="prenom" placeholder="Votre Prénom">
+                <input class="col-11 col-sm-4" type="text" name="nom" id="nom" placeholder="Votre Nom">
+                <input class="col-11 col-sm-4" type="email" name="email" id="email" placeholder="Email">
+                <input class="col-11 col-sm-4" type="tel" name="telephone" id="telephone" placeholder="Téléphone">
+                <textarea class="col-10" name="message" id="message" rows="10" placeholder="Votre Message"></textarea>
+                <button class="col-4" type="submit">ENVOYER</button>
+            </form>
+        </contact>
+        <!--fin de contact-->
+        <!-- footer -->
+        <div class="footer">
+            <div id="logo">
+                <a href="#haut"><img src="assets/img/logo-osmoz.png" alt="logo-osmoz" id="logo-osmoz"></a>
+            </div>
+            <div class="footercenter">
+                <div class="footercenterleft">
+                    <a href="https://www.legalplace.fr/guides/mentions-legales/" class="titre">Mention Légales</a>
+                    <br>
+                    <p>Site développé et géré par :</p>
+                    <ul>
+                        <li>Allan BAGUET</li>
+                        <li>Matthieu CICERON</li>
+                        <li>Sébastien LEROY</li>
+                        <li>Justin VERHAEGHE</li>
+                    </ul>
+                    <p class="copyright">Copyright © 2023</p>
                 </div>
-                <div>
-                    <div>
-                        <a></a>
-                        <p></p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <p></p>
-                    </div>
-                    <div>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
-                <div>
-                    <a href="https://www.facebook.com/osmozamiens/?locale=fr_FR" target="_blank"><img
-                            src="public/assets/img/logo-fb.png" alt="facebook"></a>
+                <div class="footercenterright">
+                    <p class="titre">Restaurant Osmoz</p>
+                    <p>8 Rue Lamarck</p>
+                    <p>80000 Amiens</p>
+                    <p>Ouvert du lundi au samedi</p>
+                    <p>Fermé le dimanche et le lundi soir</p>
+                    <br>
                 </div>
             </div>
+            <div class="logo-fb">
+                <a href="https://www.facebook.com/osmozamiens/?locale=fr_FR" target="_blank"><img src="assets/img/logo-fb.png"
+                        alt="facebook"></a>
+            </div>
+        </div>
+        </div>
+        <!-- fin du footer clasique -->
+        <!-- médiaquery footer -->
+        <footer class="footermobile container-fluid justify-content-center fs-5 text-white text-center">
+            <logo class="col-12">
+                <a href="#haut"><img src="assets/img/logo-osmoz.png" alt="logo-osmoz" id="logo-osmoz"></a><br>
+            </logo>
+            <footercenterleft class="col-12">
+                <a href="https://www.legalplace.fr/guides/mentions-legales/" class="titre">Mention Légales</a> <br>
+                <p>Site développé et géré par :</p>
+                <ul>
+                    <li>Allan BAGUET</li>
+                    <li>Matthieu CICERON</li>
+                    <li>Sébastien LEROY</li>
+                    <li>Justin VERHAEGHE</li>
+                </ul>
+                <p class="copyright">Copyright © 2023</p>
+            </footercenterleft>
+            <footercenterright class="col-12">
+                <p class="titre">Restaurant Osmoz</p>
+                <p>8 Rue Lamarck</p>
+                <p>80000 Amiens</p>
+                <p>Ouvert du lundi au samedi</p>
+                <p>Fermé le dimanche et le lundi soir</p>
+            </footercenterright>
+            <logofb class="col-12">
+                <a href="https://www.facebook.com/osmozamiens/?locale=fr_FR" target="_blank"><img src="assets/img/logo-fb.png"
+                        alt="facebook"></a>
+            </logofb>
         </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
