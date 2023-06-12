@@ -3,3 +3,112 @@ body{
     margin: 0;
     padding: 0;
 }
+/* contact */
+.contact input {
+    background-color: #52796F;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin: 15px;
+    height: 60px;
+    font-size: 20px;
+    color: white;
+}
+.contact .row{
+    background-color: #cad2c5 ;
+}
+.contact h2{
+    font-size: 50px;
+    background-color: #cad2c5 ;
+    color: #2F3E46 ;
+    margin: 0rem;
+}
+.contact button{
+    background-color: #52796F;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: white;
+    height: 60px;
+    margin: 15px;   
+}
+.contact textarea{
+    background-color: #52796F;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: white;
+}
+/* footer */
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #cad2c5;
+    border-top: solid 1px #000000;
+    border-right: solid 1px #000000;
+}
+#logo-osmoz{
+ width: 60%;
+ margin-left: 60px;
+}
+.footercenter{
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    color: #cad2c5;
+    font-size: 12px;
+    width: 100%; 
+}
+.footercenter a{
+    text-decoration: none;
+    color: #cad2c5;
+    font-size: 28px;
+}
+.footercenterleft{
+    width: 40%;
+}
+.footercenterleft ul{
+    list-style-type: none;
+    padding: 0;
+}
+.footercenterright{
+    width: 40%;
+    font-size: 12px;
+}
+.titre{
+    font-size: 28px;
+    margin: 0;
+}
+.copyright{
+    margin-top: 10px;
+}
+.logo-fb{
+    padding: 0 10px 0 10px ;
+    width: 20%;
+}
+.logo-fb img{
+    width: 120px;
+    margin-top: 25%;
+}
+.footer{
+    background-color: #2F3E46;
+    display: flex;
+}
+
+@media screen and (max-width: 578px){
+    .footer{
+        display:none;
+    }
+}
+@media screen and (min-width: 578px){
+    .footermobile{
+        display:none;
+    }
+}
+footer{
+    background-color: #2F3E46;
+}
+footercenterleft ul { 
+    list-style-type: none;
+}
+
+
+
