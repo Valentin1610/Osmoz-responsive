@@ -1,5 +1,48 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    margin: 0;
     padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #2F3E46;
+}
+nav li{
+    font-size:40px;
+    padding-top: 8px;
+    margin: 40px;
+}
+.navbar-nav a:hover {
+    background-color: #84A98C;
+}
+.navbar-nav a {
+    border-radius: 20px;
+    transition: all 1s ;  
+}
+.navbar-nav .nav-link{
+    color: #84A98C ;
+}
+.navbar-toggler{
+    background-color: #84A98C;
+    width: 100px;
+    height: 80px;
+}     
+.logoimg{
+    width: 250px;
+    background-color:#CAD2C5;
+    margin-left: 25px;
+    height: 150px;
+}
+@media screen and (max-width:1310px){
+    .logoimg{
+        width: 200px;
+        height: 150px;
+    }
+    .vertical-line{
+        display: none;
+    }
+}
+.vertical-line{
+    font-size: 40px;
+    margin-top: 55px;
+    color:#212529
 }
