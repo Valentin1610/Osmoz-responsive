@@ -1,5 +1,5 @@
 body{
-    width: 100%;
+    
 }
 /* ------------------------------------------DEBUT SECTION REALISATION */
 @media screen and (max-width: 578px){
@@ -16,6 +16,7 @@ body{
 .real{
     background-color: #52796F;
     margin-top: -80px;
+    
 }
 .h2real{
     font-size: 50px;
@@ -26,12 +27,13 @@ body{
 }
 .pics {
     display: grid;
-    width:80%;
+    width:90%;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(12, 1fr);
     grid-gap: 20px 20px;
     padding-left: 10%;
     padding-bottom: 50px;
+   
     }
     
     .div1 { grid-area: 1 / 1 / 7 / 5; }
@@ -92,6 +94,7 @@ body{
     width: 50%;
 }
 .containerinfo3 {
+    
     width: 50%;
 }
 .containerhoraires {
@@ -126,5 +129,11 @@ body{
     width: 10%;
     height: 5%;
     color: #84A98C;
+}
+.maps {
+    display:flex;
+    align-items: end;
+    width: 95%;
+    margin-bottom: 10px;
 }
 /* ------------------------------------------FIN SECTION INFO */
